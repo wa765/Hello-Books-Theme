@@ -1,0 +1,101 @@
+    /* Ukuran hp kecil */
+    
+    @media (min-width: 576px) {}
+    /* ukuran hp medium */
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {}
+    /* // XX-Large devices (larger desktops, 1400px and up) */
+    
+    @media (min-width: 992px) {
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .hello-books {
+            font-family: Ruslan Display;
+            font-size: 28px;
+        }
+        .logo {
+            width: 60px;
+            padding-right: 12px;
+        }
+        .nav-link {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .button-login {
+            width: 121px;
+            background: #263238;
+            color: #fff;
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 18px;
+            box-shadow: 5px 0px 4px rgba(60, 56, 56, 0.25), 0px 5px 4px rgba(106, 104, 104, 0.25);
+            border-radius: 8px;
+        }
+        .nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 3px;
+            background: #263238;
+            transition: width .3s;
+            margin: auto;
+        }
+        .nav-link:hover::after {
+            width: 80%;
+        }
+        /* hover button */
+        .button-login:hover {
+            color: #263238;
+            background: #fff;
+        }
+        /* remove border in boostrap */
+        .btn:focus {
+            outline: none;
+            box-shadow: 5px 0px 4px rgba(60, 56, 56, 0.25), 0px 5px 4px rgba(106, 104, 104, 0.25);
+        }
+        /* bagian hero  */
+        /* class jumbtoron */
+        .jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            margin-top: 5rem;
+        }
+        .display {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 62px;
+            line-height: 90px;
+            letter-spacing: 0.05em;
+            color: #263238;
+            margin-top: 6rem;
+        }
+        .button-readmore {
+            width: 199px;
+            height: 62px;
+            background: #263238;
+            box-shadow: 3px 3px 4px rgba(60, 56, 56, 0.25), 0px 5px 4px rgba(241, 240, 240, 0.25);
+            border-radius: 8px;
+            color: #fff;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            letter-spacing: 0.05em;
+        }
+        .hero1 {
+            width: 610px;
+        }
+        /* hover bagian button read more belum */
+        /*  */
+        /* bagian hero 2 */
+        .wave1 {
+            width: 100%;
+        }
+    }
