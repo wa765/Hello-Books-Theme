@@ -69,8 +69,8 @@
     }
     
     .button-readmore {
-        width: 150px;
-        height: 62px;
+        width: 140px;
+        height: 52px;
         background: #263238;
         box-shadow: 3px 3px 4px rgba(60, 56, 56, 0.25), 0px 5px 4px rgba(241, 240, 240, 0.25);
         border-radius: 8px;
@@ -78,7 +78,7 @@
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 17px;
         letter-spacing: 0.05em;
         margin-top: 20px;
     }
@@ -86,6 +86,28 @@
     .hero1 {
         width: 100%;
         margin-top: 6rem;
+    }
+    /* bagian wave */
+    
+    .wave1 {
+        width: 100%;
+    }
+    
+    .hero2 {
+        width: 100%;
+    }
+    
+    .display2 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Poppins;
+    }
+    
+    .text-heading {
+        font-size: 22px;
+        color: #827E7E;
+        font-family: Poppins;
+        letter-spacing: 0.05em
     }
     /* Perbatasan */
     
@@ -198,5 +220,27 @@
         /* bagian hero 2 */
         .wave1 {
             width: 100%;
+        }
+        .jumbotron2 {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+        }
+        .hero2 {
+            width: 650px;
+        }
+        .display2 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 62px;
+            line-height: 90px;
+            letter-spacing: 0.05em;
+            color: #263238;
+            margin-top: 6rem;
+        }
+        .text-heading {
+            font-family: Poppins;
+            font-size: 20px;
+            color: #827E7E;
         }
     }
